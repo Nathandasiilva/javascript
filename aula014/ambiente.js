@@ -8,17 +8,6 @@ console.log('Fim!!')
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*
 for (var c=1; c <= 10; c++) {
     console.log(c)
@@ -27,7 +16,7 @@ for (var c=1; c <= 10; c++) {
     
 
 
-/*
+/* 
 var c = 1 
 while (c <= 10) {
     console.log(c)
