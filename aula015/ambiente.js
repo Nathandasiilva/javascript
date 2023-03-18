@@ -4,7 +4,10 @@ num.sort()
 console.log(`Os numeros dos vetores são ${num}`)
 console.log(`O vetor tem ${num.length} posições`)
 console.log(`O primeiro valor do vetor ${num[0]}`)
-
-for (let pos = 0; pos < num.length; pos++){
-    console.log(num[pos])
+var pos = num.indexOf(10)
+if (pos == -1){
+    console.log('Esse codigo não foi localizado')
+}
+else {
+    console.log(`O valor de 10 esta na posição de ${pos}`)
 }
