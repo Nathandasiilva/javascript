@@ -1,12 +1,15 @@
-function numero() {
-    let num = document.getElementById('num')
-    let amr = document.getElementById('armazenamento')
+function adicionar() {
+    let num = document.querySelector('input#numeros')
+    let lis = document.querySelector('select#flista')
+    let res = document.querySelector('div#res')
+    let valores = []
 
-    if ( num.value.length == 0 ){
-    window.alert('Nenhum numero encontrado')
-    } else {
-        let n = Number(num.value)
-        let c = 1 
-        amr.innerHTML = ''
-       }
+
+function num {
+
+}
+
+
+
+
 }

@@ -24,6 +24,11 @@ section {
     
 }
 
+select#flista {
+    width: 200px;
+    height: 200px;
+}
+
 footer > p {
     text-align: center;
     font-size: 1.0em;
