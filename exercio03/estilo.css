@@ -25,8 +25,8 @@ section {
 }
 
 select#flista {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 footer > p {
@@ -36,19 +36,18 @@ footer > p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-div {
-    text-align: center;
-    padding: 20px;
-}
 
 div {
+    padding: 20px;
     text-align: left;
     font-size: 1.2em;
     font-family:'Times New Roman', Times, serif;
+    
 }
 
 section > div > p   {
     padding: 10px;
     text-align: left;
+    
     
 }
