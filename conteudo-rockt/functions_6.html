@@ -1,0 +1,19 @@
+<script>
+ // callback function
+
+function sayMyName(name) {
+    console.log('antes de executar a função')
+
+    name()
+
+    console.log('depois de executar a função')
+}
+
+sayMyName(
+    () => {
+    console.log('estou em callback')
+}
+)
+
+
+</script>
