@@ -1,0 +1,28 @@
+<script>
+
+// throw
+
+function sayMyName (name = '') {
+    if (name === ''){
+        throw 'nome é obrigatorio'
+    }
+
+    console.log(name)
+}
+
+// try...catch
+
+try {
+    sayMyName('')
+} catch (e) {
+    console.log(e)
+}
+
+console.log('após ao try/catch')
+
+
+
+
+
+
+</script>
