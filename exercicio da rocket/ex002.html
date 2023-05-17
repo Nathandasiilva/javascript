@@ -1,0 +1,37 @@
+<script>
+
+let family = {
+    incomes: [2500, 3200, 250.44, 350.78],
+    expenes: [320.34, 120.45, 180.87, 1250.20, 5000]
+}
+
+function sum(array) {
+    let total = 0;
+
+    for(let value of array) {
+        total += value
+    }
+    return total 
+}
+
+function calculeBalance() {
+   const calculeteIncomes = sum(family.incomes)
+   const calculeteExpenes = sum(family.expenes)
+
+   const total = calculeteIncomes - calculeteExpenes
+
+   const istOK = total >= 0 
+
+   let banleceText = "negativo"
+
+   if (istOK) {
+    banleceText = "possitivo"
+   }
+
+   console.log(`O seu salado é ${banleceText}: R$${total.toFixed(2)}`)
+}
+
+
+calculeBalance()
+
+</script>
