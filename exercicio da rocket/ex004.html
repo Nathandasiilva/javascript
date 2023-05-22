@@ -46,4 +46,42 @@ const booksbyCategory = [
     },
 ];
 
+const totalCategories = booksbyCategory.length
+
+console.log(totalCategories)
+for(let category of booksbyCategory) {
+    console.log('total de livros de categoria: ', category.category)
+    console.log(category.books.length)
+}
+
+function countAuthors() {
+    let authors = [];
+
+    for(let category of booksbyCategory) {
+        for (let book of category.books) {
+          if(authors.indexOf(book.author) == -1) {
+            authors.push(book.author)
+           }
+        }
+    }
+
+    console.log("Total de autores:", authors.length)
+}
+
+countAuthors();
+
+function booksOfAuthor(author) {
+    let authors = [];
+
+    for(let category of booksbyCategory) {
+        for (let book of category.books) {
+          if(book.author === 'Agusto cury') {
+            books.push(book.title)
+          }
+        }
+    }
+
+    console.log(`Livros do author ${author}:  ${books.join(", ")}`)
+}
+booksOfAuthor('Agusto Cury')
 </script>
